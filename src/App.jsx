@@ -6,6 +6,10 @@
 import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+import Work from './components/Work'
+import Experience from './components/Experience'
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <About />
+        <Skills />
+        <Work />
+        <Experience />
       </main>
     </>
   )

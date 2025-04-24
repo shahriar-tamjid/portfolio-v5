@@ -18,7 +18,8 @@ body {
 }
 
 /* typography */
-.headline-1 {
+.headline-1,
+.headline-2 {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
@@ -27,6 +28,14 @@ body {
 
 .headline-1 {
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
+.headline-2 {
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
+}
+
+.title-1 {
+  @apply text-[22px] font-normal
 }
 
 /* utilities */
@@ -46,6 +55,9 @@ body {
   @apply w-full h-full object-center
 }
 
+.section {
+  @apply pt-20 lg:pt-32
+}
 
 
 /* components */
@@ -106,3 +118,8 @@ body {
 .btn-primary {
   @apply h-11 bg-teal-400 text-zinc-950 hover:bg-teal-300 active:bg-teal-400
 }
+
+.btn-outline {
+  @apply h-11 bg-zinc-800 hover:bg-zinc-900 active:bg-zinc-800
+}
+

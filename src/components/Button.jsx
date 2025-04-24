@@ -40,6 +40,41 @@ ButtonPrimary.propTypes = {
     classes: PropTypes.string
 }
 
+// outline button
+const ButtonOutline = ({
+    href,
+    target = '_self',
+    label,
+    icon,
+    classes
+}) => {
+    if (href) {
+        return (
+            <a href={href} target={target} className={"btn btn-outline " + classes}>
+                {label}
+                {icon ? <span className='material-icons-round' aria-hidden='true'>{icon}</span> : undefined}
+            </a>
+          )
+    } else {
+        return (
+            <button className={'btn btn-outline ' + classes}>
+                {label}
+                {icon ? <span className='material-icons-round' aria-hidden='true'>{icon}</span> : undefined}
+            </button>
+          )
+    }
+
+}
+
+ButtonOutline.propTypes = {
+    label: PropTypes.string.isRequired,
+    href: PropTypes.string,
+    target: PropTypes.string,
+    icon: PropTypes.string,
+    classes: PropTypes.string
+}
+
 export {
-    ButtonPrimary
+    ButtonPrimary,
+    ButtonOutline
 }
