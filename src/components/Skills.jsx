@@ -22,11 +22,11 @@ const skillItem = [
     label: "Python",
     desc: "Language",
   },
-  {
-    imgSrc: "/images/Swift.svg",
-    label: "Swift",
-    desc: "Language",
-  },
+  // {
+  //   imgSrc: "/images/Swift.svg",
+  //   label: "Swift",
+  //   desc: "Language",
+  // },
   // {
   //     imgSrc: '/images/Go.svg',
   //     label: 'Go',
@@ -34,13 +34,13 @@ const skillItem = [
   // },
   {
     imgSrc: "/images/react.svg",
-    label: "React",
-    desc: "Framework",
+    label: "React.js",
+    desc: "Web Framework",
   },
   {
     imgSrc: "/images/Nextjs.svg",
     label: "Next.js",
-    desc: "React Framework",
+    desc: "React.js Framework",
   },
   {
     imgSrc: "/images/nodejs.svg",
@@ -50,7 +50,12 @@ const skillItem = [
   {
     imgSrc: "/images/expressjs.svg",
     label: "Express.js",
-    desc: "Node Framework",
+    desc: "Node.js Framework",
+  },
+  {
+    imgSrc: "/images/react.svg",
+    label: "React Native",
+    desc: "Mobile Framework",
   },
   {
     imgSrc: "/images/PostgresSQL.svg",
