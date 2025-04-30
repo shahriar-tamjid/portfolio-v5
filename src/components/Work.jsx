@@ -8,6 +8,12 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: "/images/projects/zentry_gaming.png",
+    title: "Zentry Gaming",
+    tags: ["React.js", "GSAP", "Tailwind"],
+    projectLink: "https://zentry25.netlify.app/",
+  },
+  {
     imgSrc: "/images/projects/ecommerce.png",
     title: "Ecommerce Platform",
     tags: ["Next.js", "Sanity"],
@@ -37,12 +43,12 @@ const works = [
     tags: ["React.js", "TMDB API"],
     projectLink: "https://vanilla-movies.vercel.app/",
   },
-  {
-    imgSrc: "/images/projects/inverse_modulo_calculator.png",
-    title: "Inverse Mod Calculator",
-    tags: ["JavaScript", "Bootstrap"],
-    projectLink: "https://shahriar-tamjid.github.io/inverse-modulo-calculator/",
-  },
+  // {
+  //   imgSrc: "/images/projects/inverse_modulo_calculator.png",
+  //   title: "Inverse Mod Calculator",
+  //   tags: ["JavaScript", "Bootstrap"],
+  //   projectLink: "https://shahriar-tamjid.github.io/inverse-modulo-calculator/",
+  // },
 ];
 
 const Work = () => {
