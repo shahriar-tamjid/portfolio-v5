@@ -17,11 +17,11 @@ const skillItem = [
     label: "TypeScript",
     desc: "Language",
   },
-  {
-    imgSrc: "/images/Python.svg",
-    label: "Python",
-    desc: "Language",
-  },
+  // {
+  //   imgSrc: "/images/Python.svg",
+  //   label: "Python",
+  //   desc: "Language",
+  // },
   // {
   //   imgSrc: "/images/Swift.svg",
   //   label: "Swift",
@@ -58,6 +58,11 @@ const skillItem = [
     desc: "Mobile Framework",
   },
   {
+    imgSrc: "/images/tailwindcss.svg",
+    label: "TailwindCSS",
+    desc: "User Interface",
+  },
+  {
     imgSrc: "/images/PostgresSQL.svg",
     label: "PostgresSQL",
     desc: "Database",
@@ -73,9 +78,9 @@ const skillItem = [
   //     desc: 'Database'
   // },
   {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
+    imgSrc: "/images/Jest.svg",
+    label: "Jest",
+    desc: "Testing Framework",
   },
   {
     imgSrc: "/images/Git.svg",

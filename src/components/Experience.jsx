@@ -9,9 +9,9 @@ import ExperienceCard from "./ExperienceCard";
 const experience = [
   {
     content:
-      "Developed and optimized ERP system features by writing complex SQL and PL/SQL queries, fixing bugs, and ensuring efficient data pipelines for large-scale operations. Managed critical financial and inventory data to facilitate smooth transactions and accurate stock tracking. Collaborated with government and industry clients—including textiles, chemicals, and ceramics—to automate production and supply chain processes, enhancing operational efficiency. Focused on improving legacy systems for better performance while maintaining data integrity and system reliability.",
+      "Designed and maintained dynamic ERP dashboards and web applications using React.js, Redux, and RESTful APIs to enhance system performance and user engagement. Built responsive and interactive user interfaces with Tailwind CSS and GSAP, delivering seamless cross-device experiences. Ensured application stability and browser compatibility through comprehensive unit, integration, and asynchronous testing with Jest. Worked closely with Agile/Scrum teams to define, develop, and deliver scalable features within sprint timelines, leveraging Git for robust version control and team collaboration.",
     designation: "Software Engineer",
-    timeline: "Jun 2023 - Aug 2024",
+    timeline: "Jan 2023 - Feb 2025",
     imgSrc: "/images/pridesys.jpg",
     company: "Pridesys IT Ltd.",
   },
