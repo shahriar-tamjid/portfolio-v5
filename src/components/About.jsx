@@ -22,11 +22,7 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Tamjid, a professional Software Engineer with a
-            knack for crafting visually stunning and highly functional web and
-            mobile applications. Combining creativity and technical expertise. I
-            transform your vision into digital masterpiece that excels in both
-            appearance and performance.
+            Welcome! I&apos;m Tamjid, a professional Software Engineer specializing in building scalable, enterprise-grade solutions. I&apos;m passionate about learning new technologies and writing clean, maintainable code. My core interests lie in system design and software architecture, where I focus on creating robust, efficient, and future-ready systems.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

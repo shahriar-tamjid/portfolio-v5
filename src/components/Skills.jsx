@@ -8,8 +8,18 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
+    imgSrc: "/images/Oracle.svg",
+    label: "Oracle",
+    desc: "Database",
+  },
+  {
+    imgSrc: "/images/PostgresSQL.svg",
+    label: "PostgreSQL",
+    desc: "Database",
+  },
+  {
+    imgSrc: "/images/Java.svg",
+    label: "Java",
     desc: "Language",
   },
   {
@@ -17,75 +27,25 @@ const skillItem = [
     label: "TypeScript",
     desc: "Language",
   },
-  // {
-  //   imgSrc: "/images/Python.svg",
-  //   label: "Python",
-  //   desc: "Language",
-  // },
-  // {
-  //   imgSrc: "/images/Swift.svg",
-  //   label: "Swift",
-  //   desc: "Language",
-  // },
-  // {
-  //     imgSrc: '/images/Go.svg',
-  //     label: 'Go',
-  //     desc: 'Language'
-  // },
   {
-    imgSrc: "/images/react.svg",
-    label: "React.js",
-    desc: "Web Framework",
+    imgSrc: "/images/spring-boot.png",
+    label: "Spring Boot",
+    desc: "Backend Framework",
   },
   {
-    imgSrc: "/images/Nextjs.svg",
+    imgSrc: "/images/Nestjs.svg",
+    label: "NestJS",
+    desc: "Backend Framework",
+  },
+  {
+    imgSrc: "/images/Angular.svg",
+    label: "Angular",
+    desc: "Frontend Framework",
+  },
+  {
+    imgSrc: "/images/next-js.svg",
     label: "Next.js",
-    desc: "React.js Framework",
-  },
-  {
-    imgSrc: "/images/nodejs.svg",
-    label: "Node.js",
-    desc: "Web Server",
-  },
-  {
-    imgSrc: "/images/expressjs.svg",
-    label: "Express.js",
-    desc: "Node.js Framework",
-  },
-  {
-    imgSrc: "/images/react.svg",
-    label: "React Native",
-    desc: "Mobile Framework",
-  },
-  {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
-  },
-  {
-    imgSrc: "/images/PostgresSQL.svg",
-    label: "PostgresSQL",
-    desc: "Database",
-  },
-  {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
-  },
-  // {
-  //     imgSrc: '/images/Firebase.svg',
-  //     label: 'Firebase',
-  //     desc: 'Database'
-  // },
-  {
-    imgSrc: "/images/Jest.svg",
-    label: "Jest",
-    desc: "Testing Framework",
-  },
-  {
-    imgSrc: "/images/Git.svg",
-    label: "Git",
-    desc: "Version Control",
+    desc: "Frontend Framework",
   },
 ];
 
@@ -96,7 +56,7 @@ const Skills = () => {
         <h2 className="headline-2 reveal-up">Essential Tools I Use</h2>
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
           Discover the powerful tools and technologies I use to create
-          exceptional, high-performing websites & applications.
+          scalable, robust, and high-performing web applications.
         </p>
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
