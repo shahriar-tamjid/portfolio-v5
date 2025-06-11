@@ -9,7 +9,7 @@ import ExperienceCard from "./ExperienceCard";
 const experience = [
   {
     content:
-      "Designed and maintained complex ERP modules using Oracle database, Spring Boot, and RESTful APIs to enhance system performance and user engagement. Helped to built functional user interfaces with Angular, delivering seamless cross-device experiences. Ensured application stability and robustness through comprehensive unit, integration, and asynchronous testing. Worked closely with Agile/Scrum teams to define, develop, and deliver scalable features within sprint timelines, leveraging Git and Apache Subversion (SVN) for robust version control and team collaboration.",
+      "Built and maintained complex ERP modules using Oracle database, Spring Boot, and RESTful APIs to enhance system performance and user engagement. Ensured application stability and robustness through comprehensive unit, integration, and asynchronous testing. Worked closely with Agile/Scrum teams to define, develop, and deliver scalable features within sprint timelines, leveraging Git and Apache Subversion (SVN) for robust version control and team collaboration.",
     designation: "Software Engineer",
     timeline: "Jun 2023 - Present",
     imgSrc: "/images/pridesys.jpg",
