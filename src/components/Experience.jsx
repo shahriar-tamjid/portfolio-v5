@@ -10,7 +10,7 @@ const experience = [
   {
     content:
       "Built and maintained complex ERP modules using Oracle database, Spring Boot, and RESTful APIs to enhance system performance and user engagement. Ensured application stability and robustness through comprehensive unit, integration, and asynchronous testing. Worked closely with Agile/Scrum teams to define, develop, and deliver scalable features within sprint timelines, leveraging Git and Apache Subversion (SVN) for robust version control and team collaboration.",
-    designation: "Software Engineer",
+    designation: "Software Engineer II",
     timeline: "Jun 2023 - Present",
     imgSrc: "/images/pridesys.jpg",
     company: "Pridesys IT Ltd.",

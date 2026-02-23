@@ -6,11 +6,11 @@
 const aboutItems = [
   {
     label: "Projects Done",
-    number: 25,
+    number: 50,
   },
   {
     label: "Years of Experience",
-    number: 2,
+    number: 3,
   },
 ];
 
@@ -22,7 +22,9 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Tamjid, a professional Software Engineer specializing in building scalable, enterprise-grade solutions. I&apos;m passionate about learning new technologies and writing clean, maintainable code. My core interests lie in system design and data engineering, where I focus on creating robust, efficient, and future-ready systems.
+            Welcome! I&apos;m Tamjid, a Software Engineer focused on building scalable, enterprise-grade backend systems. I specialise in system design and writing clean, maintainable, production-ready code.
+            <br /> <br />
+            I&apos;m currently expanding into Machine Learning and Deep Learning, with interests in trustworthy AI, interpretability, and building efficient, data-driven systems.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

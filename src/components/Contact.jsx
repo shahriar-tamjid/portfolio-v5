@@ -61,7 +61,7 @@ const socialLinks = [
     alt: "LinkedIn",
   },
   {
-    href: "https://x.com/shahriar_tamjid",
+    href: "https://x.com/tamjidlive",
     icon: (
       <svg
         width="24"
@@ -79,7 +79,7 @@ const socialLinks = [
     alt: "Twitter X",
   },
   {
-    href: "https://www.instagram.com/shahriar_tamjid",
+    href: "https://www.instagram.com/tamjid.ai",
     icon: (
       <svg
         width="25"
