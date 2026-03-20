@@ -33,8 +33,8 @@ const skillItem = [
     desc: "Backend Framework",
   },
   {
-    imgSrc: "/images/Angular.svg",
-    label: "Angular",
+    imgSrc: "/images/next-js.svg",
+    label: "Next.js",
     desc: "Frontend Framework",
   },
   {
